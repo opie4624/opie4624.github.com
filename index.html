@@ -1,1 +1,21 @@
-<h1>Standby...</h1>
+---
+layout: default
+title: Andrew Kraut
+---
+
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+    
+  <h1>GitHub Projects</h1>
+  <ul class="posts">
+    <li><a href="http://github.com/opei4624/bitly.py/">bitly.py:</a> A Python API interface to <a href="http://bit.ly/">bit.ly</a>.</li>
+    <li><a href="https://github.com/opie4624/pypingfm/">pypingfm:</a> A Python API interface to <a href="http://ping.fm/">Ping.fm</a>.</li>
+    <li><a href="https://github.com/opie4624/pyrss2twitter/">pyrss2twitter:</a> A Python script to post RSS feed items to a <a href="http://twitter.com/">Twitter</a> account.</li>
+  </ul>
+</div>
+  
