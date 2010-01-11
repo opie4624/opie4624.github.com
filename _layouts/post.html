@@ -4,12 +4,12 @@ layout: default
 <div id="post">
 {{ content }}
 </div>
-
+<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/opie4624github/embed.js"></script><noscript><a href="http://disqus.com/forums/opie4624github/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 <div id="related">
   <h2>Related Posts</h2>
   <ul class="posts">
     {% for post in site.related_posts limit:3 %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a class="comment_count" href="{{ post.url }}">{{ post.title }}</a> <small><a href="{{ post.url }}#disqus_thread">Comments</a></small></li>
     {% endfor %}
   </ul>
 </div>
