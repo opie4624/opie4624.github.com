@@ -1,0 +1,14 @@
+---
+layout: post
+title: Starting Project Stacy
+---
+
+h1. {{ page.title }}
+
+p(meta). 03 January 2010 - Bloomington
+
+The coffee house where I regularly hang out recently decided to begin seriously restricting their internet connection.  It seems that little more than ports 80 and 443 are allowed to connect out.  I wanted to determine exactly what traffic is being allowed and thought I'd try a port scan.  However, the only way to know for sure, is to have open ports at the other end.  After asking around for a few days, it seems that no tool exists that allows that kind of a controlled firewalk/scan.  Therefore I've set out to write it.
+
+Several years ago, my friend had a need to do a simliar scan.  He simply used nmap and a piece of C code that would open as many TCP ports as it could.  He named his C code "stacyd" after his daughter Stacy who would run through the house opening any cabinets and drawers she could get her hands on.  Since my app expands on it, I'm continuing to call it stacy.
+
+The current plan for stacy, is to be written in two parts.  Part 1 is a server that will open as many TCP ports as possible.  Part 2 is a client that will try to walk the ports recording each success or failure.  I also intend to add a way for the client to differentiate between the stacy server and another daemon running on that port.  At some point in the near or distant future, I also intend to add some amount of modularization to detect traffic manipulation.  For example, one module might attempt to determine if HTTP traffic is being modified in transit.
