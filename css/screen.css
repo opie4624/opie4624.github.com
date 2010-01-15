@@ -154,6 +154,12 @@ ul.posts {
 
   /* standard */
   
+  #post blockquote {
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 1px solid #ddd;
+  }
+
   #post pre {
     border: 1px solid #ddd;
     background-color: #eef;
