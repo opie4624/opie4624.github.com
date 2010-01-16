@@ -1,6 +1,6 @@
 ---
 layout: post
-title: No Beaver Shots
+title: Yeah, no beaver shots...
 categories: [quotes, humor, offensive]
 ---
 

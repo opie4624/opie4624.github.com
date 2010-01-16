@@ -1,0 +1,15 @@
+---
+layout: post
+title: Flock v1.1
+categories: [firefox, flock, browser, social, beta]
+---
+
+I gave Flock another try. I've been using it as my primary browser since Thursday or Friday of last week. Overall, the idea is sound. Flock integrates many of the popular social websites into the browser itself. The way I had it configured this time around, bookmarking links adds them to del.icio.us. [1] Twitter [2] and Facebook [3] updates show up in the sidebar. YouTube [4] and Flickr [5] show up in the media bar. Like I said, it is a sound idea, in fact, I even think the execution is fantastic. The problem still exists in the stability of the browser. I have a tendency to run the uptime's on my boxes really high. Since I've been using Flock, I've needed to reboot almost daily. Most of the reboots are due to really odd system failures: processes that won't exit, processes that won't run, windows that won't draw, dialog boxes that won't respond. Overall, Flock [6] will be really cool when it becomes a bit more mature. For now, though, I'll stick to Firefox 3 Beta 5 [7] since that is considerably more stable.
+
+[1]: http://del.icio.us/akraut "del.icio.us"
+[2]: http://twitter.com/akraut "Twitter"
+[3]: http://www.facebook.com/profile.php?id=505107905 "Facebook"
+[4]: http://www.youtube.com/user/akraut "Youtube"
+[5]: http://www.flickr.com/photos/akraut "Flickr"
+[6]: http://www.flock.com/ "Flock"
+[7]: http://www.mozilla.com/en-US/firefox/3.0b5/releasenotes/ "Firefox 3 Beta 5"
