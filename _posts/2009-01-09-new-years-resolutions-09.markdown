@@ -1,0 +1,18 @@
+---
+layout: post
+title: New Year's Resolutions '09
+---
+
+It is with great remorse that I begin writing the traditional "First Post" of the new year.  It is, of course, on the topic of resolutions and forward looking predictions for the coming year.  I usually abstain from writing this post since EVERYONE ELSE has one of their own.  However, I have am already well on my way to meeting my primary resolution goal.  That goal is to finish at least as many projects as I start this year.  Note that I'm not actually planning to finish any of the projects I start this year.  That said, here is a ridiculously incomplete list of my current, in-progress projects:
+<ul>
+<li><a href="http://bit.ly/16F7M">PyRSS2Twitter</a> is a Python application that will daemonize and continually check any number of RSS feeds and post each to it's specified Twitter accounts. I've been remarkably disappointed with the existing players in this realm.</li>
+<li><a href="http://bit.ly/17ggN">PyPingFM</a> is a Python Interface to the Ping.fm API. This project has been started to tie into the RSS2Twitter project as it occurred to me that I or others might like to post to something other than Twitter. Rather than implementing thousands of social network API's, I figured the smart approach would be to interface with someone who already had.</li>
+<li><a href="http://bit.ly/11ViB">Practical Django Projects</a> is a wonderfully written book that walks through the iterative development process for web apps that <a href="http://bit.ly/bUzX">Django</a> suits so well.</li>
+<li><a href="http://bit.ly/SSWN">Puzzles for Hackers</a> is a fun book that's almost too good to finish.  It provides lots of computer-related puzzles and mind games for people with an analytical mind.</li>
+<li><a href="http://bit.ly/adsZ">Hacking: The Art of Exploitation</a> is a great book that can be approached from several different angles.  My approach is from that of an exploit researcher.  This is one thing I've needed to work on.</li>
+<li><a href="http://bit.ly/Vpuv">Processing</a> is an interesting looking Java based language for data visualization.  It just looks cool, and I've done little more than look at the website.  I'd really like to learn how to do something with it.</li>
+</ul>
+
+Now I've mentioned that I intend to finish at least as many projects and I start this year.  I have actually completed one project, so I guess I get a freebie to start this year.
+
+I have now a feature complete implementation of <a href="http://bit.ly/BqYH">a Python Interface to the bit.ly URL Shortening API</a>.
