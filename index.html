@@ -17,6 +17,11 @@ title: Andrew Kraut
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a> <small><a class="comment_count" href="{{ post.url }}#disqus_thread">Comments</a></small></li>
     {% endfor %}
   </ul>
+
+  <h1>Pagination Test</h1>
+  {% for page in paginator.posts %}
+    {% include single_page.html %}
+  {% endfor %}
     
   <h1>GitHub Projects</h1>
   <ul class="posts">
