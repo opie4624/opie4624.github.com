@@ -10,7 +10,7 @@ pygments: true
 # so be sure to set them if your theme uses them.
 #
 title : Down to this
-tagline: You get the ankles, and I'll get the wrists
+tagline: "You get the ankles, and I'll get the wrists"
 author :
   name : Andrew Kraut
   email : akraut@gmail.com
