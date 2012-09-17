@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Howto: Split a git repo and still retain history"
+description: ""
+category: 
+tags: []
+---
+{% include JB/setup %}
+<p>At work, we have a project that started out small. As with most of our projects, it started with us learning more interesting and better ways of doing things as we became more familiar with the blocks with which we were building. Recently, the project grew big enough that it had actually become two projects. Unfortunately, they shared the same code repository, since they started as one. After a little bit of time in the office Om Lounge with my abacus, I figured out a fairly simple way to split these two repositories, but still retain the whole development history up until that point.</p>
+<p>TL;DR Steps:</p>
+<ol>
+<li>Create KEEP and MOVE branches.</li>
+<li>Make the appropriate changes in each branch.</li>
+<li>Push the MOVE branch into master in the new repository.</li>
+<li>Merge the KEEP branch into master.</li>
+<li>Delete the MOVE branch.</li>
+<li>Repeat for your branches other than master.</li>
+</ol>
+<p>(My company uses <a href="http://github.com">GitHub</a>, so my examples are using that.)</p>
+<p>If you don't have a repo you'd like to split, but would like to follow along, make your self some dummy repos on GitHub and then create some test files. In my example, I'm splitting up repoA. I'm going to keep file1 in repoA and move file2 into a brand new repo, repoB.</p>
+<script src="https://gist.github.com/1202821.js?file=01-create-repo.txt"></script>
+<p>First you need to figure out everything we want to keep in repoA. Create a new branch for the files you're keeping. Use <code>git rm</code> and <code>git mv</code> to rearrange the directory, reflecting it's look after the move is complete. Don't worry about deleting files, they all still exist in previous commits. (You did commit everything, right?)</p>
+<script src="https://gist.github.com/1202821.js?file=02-setup-kept-files.txt"></script>
+<p>Next, you need to figure out everything that's getting move to repoB. Check out master, so you get your original state back, then create a new branch for the files you're moving. Again, use <code>git rm</code> and <code>git mv</code> to rearrange the directory, reflecting the new repo's look after move is complete.</p>
+<script src="https://gist.github.com/1202821.js?file=03-setup-moving-files.txt"></script>
+<p>Now we're going to push the files that are moving, into their new home. Don't worry about setting up remotes, since you'll (hopefully) only be using this remote once. (Nerd note: remotes are just shorthand notation for a git URL, so we can use the URL directly here. <a href="http://progit.org/book/ch2-5.html">Read more here</a>)</p>
+<p>Command Anatomy: <img src="https://img.skitch.com/20110908-jhtssu9k4a9r5saytb15ecm8qx.jpg" alt="Splitting a repository 2014 Gist" /></p>
+<script src="https://gist.github.com/1202821.js?file=04-push-to-new-repo.txt"></script>
+<p>Now that the moving files are safely moved to their destination, we need to finalize the move by merging the branch of files that are sticking around.</p>
+<script src="https://gist.github.com/1202821.js?file=05-merge-in-kept-files.txt"></script>
+<p>All that's left now, is to push our changes back to the original repository and clean up a bit.</p>
+<script src="https://gist.github.com/1202821.js?file=06-update-original-repo.txt"></script>
+<p>You'll notice that git complains when it tries to delete the branch of files that are moving. It's letting us know that we're removing information from our repo by deleting that branch. We'll have to use -D instead of -d to let it know we really mean it.</p>
+<p>That's it! Pretty easy, huh?</p>
+<p>Check out my sample repos: <a href="https://github.com/opie4624/repoA/commits/master">repoA</a> and <a href="https://github.com/opie4624/repoB/commits/master">repoB</a></p>
+<p>Also, check out all the gist stuff on one page here: <a href="https://gist.github.com/1202821">Gist</a>.</p>

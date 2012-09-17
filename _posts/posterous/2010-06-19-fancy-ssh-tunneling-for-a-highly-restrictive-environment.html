@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Fancy SSH Tunneling for a Highly Restrictive Environment"
+description: ""
+category: 
+tags: [coding, security]
+---
+{% include JB/setup %}
+<p>For my penetration testing work, I frequently leave a Mac Mini hooked up to a client site so that I can remote into it to run any scans or manual validation while not on site. Very often, I will ship one pre-configured to the client without going on-site. This minimizes travel expenses for the clients and minimizes airport time for me. Somewhat recently, I had a client who was strongly opposed to making any temporary firewall changes for me to SSH into the Mac Mini. They also informed me that due to their highly restrictive firewall rules, I wouldn't be able to create an outgoing SSH tunnel, either.</p>
+<p>First is a shell script that uses some of the SSH Control Channel features (intended for connection sharing) to determine if the connection is already up and if not, start it back up. I run this script every 5 minutes out of cron.  I'm also tunneling back to port 22 from the destination box so I can connect back.</p>
+<script src="http://gist.github.com/445227.js?file=build-tunnel.sh"></script>
+<p>With the "highly restrictive" proxy at this clients location, outbound SSH did not work out of the box. I also tried running SSH on port 443 and 80 which usually works, but needed something more to "hide" the connection. I made some changes to my Apache config making it a proxy for SSH connections two specific hosts.</p>
+<script src="http://gist.github.com/445227.js?file=vhost.conf"></script>
+<p>Additionally, using <a></a>ProxyTunnel to wrap up the SSH connection, some extra configs are needed to the ssh config.  (The first two lines are for the SSH Control Channel changes.)</p>
+<script src="http://gist.github.com/445227.js?file=ssh-config"></script>
+<p>Fork my <a href="http://gist.github.com/445227">Gist</a> for yourself.</p>
