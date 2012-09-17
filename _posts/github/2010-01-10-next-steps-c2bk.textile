@@ -1,0 +1,12 @@
+---
+layout: post
+title: c2bk Next Steps
+---
+
+h1. {{ page.title }}
+
+p(meta). 10 January 2010 - Bloomington
+
+Today at the Geekup, I found a bit of direction for my c2bk game project.  I've been trying to write a web-app that will organize and coordinate games of Cruel 2 B Kind.  My plan is also to integrate with TextMarks so that SMS can be used for scoring the games while they're in progress.
+
+I've finished with the data models and I think the next step is the views.  I need to finish scaffolding each model and then work on making things actually accessible from the web.
