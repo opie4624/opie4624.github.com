@@ -49,6 +49,12 @@
           {% include JB/tags_list %}
         </ul>
       </section>
-    {% endunless %}         
+    {% endunless %} 
+    {% unless site.JB.sharing.provider == false %}        
+      <section>
+        <h4>Sharing</h4>
+        {% include JB/sharing %}
+      </section>
+    {% endunless %}
   </div>
 </div>
