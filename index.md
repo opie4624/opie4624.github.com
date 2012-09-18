@@ -9,12 +9,7 @@ Hi. Many know me as Opie. I'm a programmer, infosec geek, motorcycle rider, and 
 
 <a href="{{ BASE_PATH }}{{ site.posts.first.url }}"><h2>{{ site.posts.first.title }}</h2></a>
 
-{% if site.posts.first.excerpt %}
-  {{ site.posts.first.excerpt | markdownify }} 
-  <a href="{{ BASE_PATH }}{{ site.posts.first.url }}">Read More</a>
-{% else %}
-  {{ site.posts.first.content }}
-{% endif %}
+{{ site.posts.first.content | strip_html | truncatewords: 25 }} <a href="{{ BASE_PATH }}{{ site.posts.first.url }}">Read More</a>
 
 <hr width="30%">
 {% include recent.html %}

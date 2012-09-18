@@ -7,9 +7,9 @@ tags: [banks, frustration, house, mortgage]
 ---
 {% include JB/setup %}
 
-{% excerpt %}I just received a very disappointing letter from PNC, my mortgage company. They have denied my hardship assistance request. But, before I get into that, we need to go back in time.
+I just received a very disappointing letter from PNC, my mortgage company. They have denied my hardship assistance request. But, before I get into that, we need to go back in time.
 
-Let's jump back to around October 2009. I've just arrived home from work after being told that I may no longer have a job. My company Blackberry rings. It's someone from the HR department on the other end telling me I can expect to receive a final decision in 3 days. When I hang up, the Blackberry begins to erase itself. Something makes me think the decision has already been made.{% endexcerpt %}
+Let's jump back to around October 2009. I've just arrived home from work after being told that I may no longer have a job. My company Blackberry rings. It's someone from the HR department on the other end telling me I can expect to receive a final decision in 3 days. When I hang up, the Blackberry begins to erase itself. Something makes me think the decision has already been made.
 
 I start submitting Unemployment paperwork, cancelling premium services, and generally trying to reduce the overall cost of my life to prepare for the uphill battle that is an unexpected job search. Now, what am I going to do about the house? I bought it in November 2006 and I'm living in Central Illinois, so it's not particularly expensive. My parents are suggesting I sell it but there's been talk about the housing crisis and homeowners assistance programs, so I give that a shot.
 
