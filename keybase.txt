@@ -57,3 +57,64 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/akraut
 
 ==================================================================
+
+==================================================================
+https://keybase.io/akraut
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://networkdigital.net
+  * I am akraut (https://keybase.io/akraut) on keybase.
+  * I have a public key with fingerprint 6D39 AD49 ECA5 93C2 2930  C1C4 B608 B8F6 E905 3BDA
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "6d39ad49eca593c22930c1c4b608b8f6e9053bda",
+            "host": "keybase.io",
+            "key_id": "b608b8f6e9053bda",
+            "uid": "4345e8a923f24a5fc68646d10396ce00",
+            "username": "akraut"
+        },
+        "service": {
+            "hostname": "networkdigital.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1398392197,
+    "expire_in": 157680000,
+    "prev": "452a982750aa0bed58dfa357b6905882996f411b2388ed8eb30878be0e990306",
+    "seqno": 20,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.12
+Comment: https://keybase.io/crypto
+
+yMD0AnicbZG/axRBFMfXxIgeCKYStRsEmzPMzuzOzayNWNiLhaQ65sfbu+Hi7t7u
+3MVwpAwWlvYSEAstLI2FiohWVmKlWNrEP+Aqi7w5Yuc0w/u+z/f7eLzPF9eT3uab
+82+Xxxu3fp75+nE5S+5vfzlYEFO7PVIsyARWX+mrEbRN66tACiIcV9plCqzOFbeM
+KU5tajMjqDSyFKBozo3TpE/GdRcdGGN0B1u+Rg2LoXeo/oefrRoZz3KQWjFeskzn
+pRVSZMKllCthgdIIdtBW+iEgrSetngWy3yeozb1FbbEafNqvIOzW7cT5kQ96ZwtL
+9DdtHWpb72B/HEJTRHvYayK/C2Z4mjQ0vnK4Oxrm0Ha+rkiRImmDj9EpV5IrlqpB
+n8Cjxrcw9JHIB0JSfHEMzONCOdNKskFOtaYGXC5dqXk+MAJXl5IpJcosTQ3jUoKT
+YDiVA2mAglKUU4HzO5hWNSkYhgY9wszOjyodZi2Q/U93zyabveTcxlq8XtK7cOnf
+Tacvk8NnN38/ufz9z/vp9re/Hw6O3r3+9WI9OXx+Tf+4t3b78dH4yvUHT19dXd64
+c3wCRNqsjg==
+=cY9K
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/akraut
+
+==================================================================
