@@ -1,0 +1,59 @@
+==================================================================
+https://keybase.io/akraut
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://opie.at
+  * I am akraut (https://keybase.io/akraut) on keybase.
+  * I have a public key with fingerprint 6D39 AD49 ECA5 93C2 2930  C1C4 B608 B8F6 E905 3BDA
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "6d39ad49eca593c22930c1c4b608b8f6e9053bda",
+            "host": "keybase.io",
+            "key_id": "b608b8f6e9053bda",
+            "uid": "4345e8a923f24a5fc68646d10396ce00",
+            "username": "akraut"
+        },
+        "service": {
+            "hostname": "opie.at",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1398392025,
+    "expire_in": 157680000,
+    "prev": "c82b0b8a7c95ec509d1453857fed8916d6f711c7539e4a0dec3bcd69cbeb0e1f",
+    "seqno": 19,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.12
+Comment: https://keybase.io/crypto
+
+yMDjAnicbZGxixQxFMbn1BNdFDwRS4vUy5mZTDLJ2qwKWllZWS3Jy5u9eDozzmR2
+PZZDLPw39E8QLI7rPOQEQf8BRe3F3lLuzXJ2phnyvd/3fRne8eWzyWjr4MLhn1+b
+t75tfD763ScPHx1/XTFX+z02WbFdXH/KUM2xbdpQRTZhygtjfW4QrDQCsswIDink
+TnHtdKnQcCmct2zMdupucFCMsx1uh5o0usyCJ/U/fL8e5CKXqK3JRJnlVpagtMqV
+T7kwCpDzAeywrexTJNrutraPbH/MSFsEIG21Lj6d103AbRvJ1LR1rKF+QuJOjM1k
+8MS9ZoCW6Gan9pkLlacfJsMC2y7UFZukREIMQ14qjBYm45kcM3zehBZnYSBkoTSn
+M9TggiJBZ447bQswEkFy49NcCi2LEr02qfKqLNIUCikM5pZ7BOHAKwMOHce0pP4O
+n1U1ZRt6p51TZhfmlY19i2z/w71zydYoOb95ZlhZMrp45d8ipyF50yDAl42f7/8+
+Pjy4++rtx0vl0bvk9c3rN6a3X36f3odr5tPyzo8H/dUXJ9vTpyI=
+=Cm/X
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/akraut
+
+==================================================================
