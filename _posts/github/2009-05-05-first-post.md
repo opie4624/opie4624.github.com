@@ -3,8 +3,10 @@ layout: post
 title: First Post!
 ---
 
-h1. {{ page.title }}
+# {{ page.title }}
 
-p(meta). 05 May 2009 - Bloomington
+05 May 2009 - Bloomington
+
+***
 
 That's right, this is the requisite "First Post".  I know that it's cliche and completely useless but right now I just needed something jump-start my GitHub page.  More to follow.

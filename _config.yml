@@ -129,3 +129,4 @@ JB :
   
 
 theme: jekyll-theme-hacker
+markdown: kramdown
